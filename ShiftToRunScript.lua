@@ -10,7 +10,7 @@ local function beginSprint (input, gameProcessed)
    if not gameProcessed then
        if input.UserInputType == Enum.UserInputType.Keyboard then
            local keycode = input.KeyCode
-           if keycode == Enum.KeyCode.LeftShift then
+           if keycode == Enum.KeyCode.Q then
                player.Character.Humanoid.WalkSpeed = sprintSpeed
            end
        end
@@ -29,7 +29,7 @@ local function endSprint (input, gameProcessed)
    if not gameProcessed then
        if input.UserInputType == Enum.UserInputType.Keyboard then
            local keycode = input.KeyCode
-           if keycode == Enum.KeyCode.LeftShift then
+           if keycode == Enum.KeyCode.Q then
                player.Character.Humanoid.WalkSpeed = walkSpeed
            end
        end
