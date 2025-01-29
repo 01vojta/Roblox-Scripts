@@ -20,7 +20,7 @@ end
 local userInput = game:GetService ('UserInputService')
 local Players = game:GetService ('Players')
 
-local sprintSpeed = 30 -- how fast you want to run
+local sprintSpeed = 27 -- how fast you want to run
 local walkSpeed = 16
 
 local player = Players.LocalPlayer
