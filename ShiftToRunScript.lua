@@ -1,3 +1,5 @@
+game.StarterGui:SetCore("SendNotification", {Title="Bear [Alpha] GUI"; Text="The shift to run script is ready! Hold Q to run"; Duration=5;})
+
 local userInput = game:GetService ('UserInputService')
 local Players = game:GetService ('Players')
 
